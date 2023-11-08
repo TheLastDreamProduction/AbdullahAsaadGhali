@@ -635,10 +635,6 @@ img {
 .qualification__active[data-content]{
   display: block;
 }
-
-.qualification__button.qualification__active{
-  color: var(--first-color);
-}
 /*==================== SERVICES ====================*/
 .services__container{
   gap: 1.5rem;
@@ -751,6 +747,8 @@ img {
   width: 265px;
   border-radius: .5rem;
   justify-self: center;
+  box-shadow: -1px 3px 20px 0px;
+  margin: 20px;
 }
 
 .portfolio__title{
@@ -1181,6 +1179,8 @@ img {
 
   .portfolio__img{
     width: 320px;
+    box-shadow: -1px 3px 10px 0px;
+    margin: 20px;
   }
 
   .portfolio__content{
@@ -1267,4 +1267,16 @@ img {
   .swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -4.5rem;
   }
+
+  .a{
+    text-decoration: none;
+  }
+}
+.portfolio__data {
+  margin-bottom: 20px;
+}
+.portfolio2__img{
+  width: 320px;
+  margin-bottom: 34px;
+  border-radius: 10px;
 }
